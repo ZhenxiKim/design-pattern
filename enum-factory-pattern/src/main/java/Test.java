@@ -5,7 +5,10 @@
  */
 public class Test {
 	public static void main(String[] args) {
-		String category = "Truck";
-		VehicleFactory.
+		Vehicle truck = VehicleFactory.Truck.createVehicle();
+		truck.drive();
+
+		Vehicle car = VehicleFactory.Car.createVehicle();
+		car.drive();
 	}
 }
